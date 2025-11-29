@@ -1,4 +1,4 @@
-public class Percobaan2 {
+public class KafePercobaan2 {
     
 public static void Menu(String namaPelanggan, boolean isMember) {
     System.out.println("Selamat datang, " + namaPelanggan + "!");
@@ -16,7 +16,7 @@ public static void Menu(String namaPelanggan, boolean isMember) {
     System.out.println("6. Mie Goreng - Rp 18,000");
     System.out.println("==========================");
     System.out.println("Silahkan Pilih Menu yang Annda inginkan");
-    }
+    } 
 
     public static void main(String[] args) {
         Menu("Andi", true);

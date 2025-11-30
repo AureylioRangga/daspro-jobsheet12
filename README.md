@@ -112,7 +112,7 @@ PERCOBAAN 3
    pengguna dapat: memesan lebih dari satu jenis menu (misalnya menu 1 dan 3
    sekaligus), dan menampilkan total keseluruhan pesanan (gabungan dari semua jenis
    menu)? 
-   jawab :
+   jawab : sudah
 
 
 PERCOBAAN 4

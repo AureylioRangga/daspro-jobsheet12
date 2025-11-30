@@ -31,6 +31,8 @@ public class Percobaan2No6 {
     }
 
     public static void main(String[] args) {
-        Menu("Budi", true, "DISKON30");
+        Menu("Budi", true, "DISKON30"); 
+        Menu("Budi", true, "DISKON30"); // jika nama pelanggan adalah "Budi"
+
     }
 }

@@ -65,22 +65,26 @@ PERCOBAAN 2
 7. Berdasarkan fungsi Menu() di atas, jika nama pelanggan adalah "Budi", pelanggan
    tersebut member, dan menggunakan kode promo "DISKON30", tuliskan satu baris
    perintah pemanggilan fungsi menu yang benar.
-   jawab : sudah 
+   jawab : Menu("Budi", true, "DISKON30");
+ 
 
 8. Menurut Anda, apakah penggunaan parameter namaPelanggan dan isMember 
    pada fungsi Menu() membuat program lebih mudah dibaca dan dikembangkan
    dibandingkan jika nilai-nilai tersebut ditulis langsung di dalam fungsi tanpa parameter?
    Jelaskan alasan Anda.
-   jawab :
+   jawab : iya, karena
+           1. fungsi menjadi fleksibel
+           2. nilai dapat diganti tanpa mengedit isi fungsi
+           3. mempermudah pengembangan program
 
 
-PERCOBAAN 3
+PERCOBAAN 3 
 
 1. Jelaskan secara singkat kapan suatu fungsi membutuhkan nilai kembalian (return
    value) dan kapan fungsi tidak perlu mengembalikan nilai. Berikan minimal satu contoh
    dari program kafe pada Percobaan 3 untuk masing-masing kasus.
-   jawab :
-
+   jawab : 
+   
 2. Fungsi hitungTotalHargaNoAbsen saat ini mengembalikan total harga berdasarkan
    pilihanMenu dan jumlahPesanan. Sebutkan tipe data nilai kembalian dan dua
    buah parameter yang digunakan fungsi tersebut. Jelaskan arti masing-masing

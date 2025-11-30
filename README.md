@@ -84,12 +84,20 @@ PERCOBAAN 3
    value) dan kapan fungsi tidak perlu mengembalikan nilai. Berikan minimal satu contoh
    dari program kafe pada Percobaan 3 untuk masing-masing kasus.
    jawab : 
-   
+        1. Return DIBUTUHKAN jika:
+           fungsi menghasilkan nilai, misal perhitungan total harga.
+        2. Return TIDAK diperlukan jika:
+           hanya menampilkan sesuatu, contoh fungsi Menu().
+
 2. Fungsi hitungTotalHargaNoAbsen saat ini mengembalikan total harga berdasarkan
    pilihanMenu dan jumlahPesanan. Sebutkan tipe data nilai kembalian dan dua
    buah parameter yang digunakan fungsi tersebut. Jelaskan arti masing-masing
    parameter dalam konteks program kafe.
-   jawab :
+   jawab : 
+          > Return type: int atau double (total harga)
+          > Parameter:
+            int pilihanMenu = menu mana yang dipilih
+            int banyakItem = berapa porsi yang dipesan
 
 3. Modifikasi kode di atas sehingga fungsi hitungTotalHargaNoAbsen dapat menerima 
    kodePromo. Jika kodePromo adalah "DISKON50", maka mendapat diskon 50% dari
@@ -97,7 +105,7 @@ PERCOBAAN 3
    mendapat diskon 30% dari totalHarga dan tampilkan diskon. Jika tidak ada kode
    promo yang berlaku, tampilkan kode invalid dan tidak ada pengurangan total harga
    totalHarga.
-   jawab :
+   jawab : 
 
 4. Modifikasi kode di atas sehingga bisa memilih beberapa jenis menu berbeda serta
    menampilkan total keseluruhan pesanan. Bagaimana memodifikasi program sehingga

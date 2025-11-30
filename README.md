@@ -1,4 +1,4 @@
-PERCOBAAN 1
+PERCOBAAN 1 : Membuat Fungsi Tanpa Parameter
 
 1. Apakah fungsi tanpa parameter selalu harus bertipe void?
    jawab : Tidak. Fungsi tanpa parameter boleh mengembalikan nilai (return) ataupun tidak.
@@ -28,7 +28,7 @@ PERCOBAAN 1
    6. Program berhenti.
 
 
-PERCOBAAN 2
+PERCOBAAN 2 : Membuat Fungsi Dengan Parameter
 
 1. Apakah kegunaan parameter di dalam fungsi?
    jawab : Parameter digunakan untuk mengirim data dari pemanggil ke fungsi supaya fungsi bisa bekerja sesuai    
@@ -78,7 +78,7 @@ PERCOBAAN 2
            3. mempermudah pengembangan program
 
 
-PERCOBAAN 3 
+PERCOBAAN 3 : Membuat Fungsi dengan Nilai Kembalian
 
 1. Jelaskan secara singkat kapan suatu fungsi membutuhkan nilai kembalian (return
    value) dan kapan fungsi tidak perlu mengembalikan nilai. Berikan minimal satu contoh
@@ -115,7 +115,7 @@ PERCOBAAN 3
    jawab : sudah
 
 
-PERCOBAAN 4
+PERCOBAAN 4 : Fungsi Varargs
 
 1. Jelaskan mengapa penulisan parameter di praktikum 4 ditulis dengan String...
    namaPengunjung!
@@ -145,7 +145,8 @@ PERCOBAAN 4
           6. Program berhenti.
 
 
-PERCOBAAN 5 
+PERCOBAAN 5 : Pembuatan Kode Program, dengan Fungsi versus Tanpa Fungsi
+
 1. Sebutkan tahapan dan urutan eksekusi program pada Percobaan 5, mulai dari program
    dijalankan hingga menampilkan luas persegi panjang dan volume balok!
    jawab :
@@ -165,8 +166,8 @@ PERCOBAAN 5
           > Volume = 4 × 3 × 5 = 60
           Alur:
           1. Input dibaca
-          2. Fungsi hitungLuas dipanggil → hasil 12
-          3. Fungsi hitungVolume dipanggil → hasil 60
+          2. Fungsi hitungLuas dipanggil = hasil 12
+          3. Fungsi hitungVolume dipanggil = hasil 60
           4. Dicetak ke layar
 
 3. Apakah output dari program di bawah ini kemudian jelaskan alur jalannya program
@@ -174,9 +175,9 @@ PERCOBAAN 5
     jawab : output = 1234567
             penjelasan :
             Program dimulai dari main.
-            1.Jumlah(1,1) dipanggil → mengembalikan 2.
+            1.Jumlah(1,1) dipanggil = mengembalikan 2.
             2. Hasilnya disimpan ke variabel temp.
-            3. Fungsi TampilJumlah(temp,5) dipanggil → berarti TampilJumlah(2,5).
+            3. Fungsi TampilJumlah(temp,5) dipanggil = berarti TampilJumlah(2,5).
             4. Di dalam TampilJumlah, dilakukan:
             5. Maka dipanggil TampilHinggaKei(7).
             6. TampilHinggaKei mencetak angka dari 1 sampai 7.
@@ -186,17 +187,24 @@ PERCOBAAN 5
    Pada saat apakah fungsi yang kita buat harus memiliki nilai kembalian atau tidak?
    Jelaskan!
    jawab : 
+          > Gunakan parameter jika: Fungsi memerlukan nilai dari luar fungsi untuk diproses
+          Contoh: hitungLuas(p, l)
+          > Tanpa parameter jika: Fungsi tidak butuh input
+          Contoh: Menu() hanya menampilkan teks
 
 5. Jelaskan kapan sebuah fungsi sebaiknya menggunakan parameter dan kapan fungsi
    boleh tanpa parameter, dengan mengacu pada fungsi hitungLuas dan hitungVolume
    di Percobaan 5.
-   jawab :
+   jawab : 
+       1. hitungLuas & hitungVolume = perlu parameter.
+       2. main = tidak perlu parameter.
 
 6. Jelaskan kapan sebuah fungsi sebaiknya memiliki nilai kembalian (return value) dan
    kapan tidak perlu memiliki nilai kembalian, dengan mengacu pada fungsi main,
    hitungLuas, dan hitungVolume
-   jawab :
-
+   jawab : 
+        1. Perlu return jika menghasilkan nilai (contoh: hitungLuas).
+        2. Tidak perlu return jika hanya menampilkan sesuatu (contoh: main).
 
 
 

@@ -105,7 +105,7 @@ PERCOBAAN 3
    mendapat diskon 30% dari totalHarga dan tampilkan diskon. Jika tidak ada kode
    promo yang berlaku, tampilkan kode invalid dan tidak ada pengurangan total harga
    totalHarga.
-   jawab : 
+   jawab : sudah
 
 4. Modifikasi kode di atas sehingga bisa memilih beberapa jenis menu berbeda serta
    menampilkan total keseluruhan pesanan. Bagaimana memodifikasi program sehingga

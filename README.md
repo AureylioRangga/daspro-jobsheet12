@@ -119,19 +119,30 @@ PERCOBAAN 4
 
 1. Jelaskan mengapa penulisan parameter di praktikum 4 ditulis dengan String...
    namaPengunjung!
-   jawab :
+   jawab : Karna varargs dipakai untuk menerima jumlah argumen yang fleksibel (bebas sebanyak apa
+           pun).
 
 2. Modifikasi method daftarPengunjung menggunakan for-each loop.
-   jawab :
+   jawab : Bisa. Cukup tulis semua perintah print langsung di dalam main().
 
 3. Bisakah menggunakan dua tipe data varaargs dalam satu fungsi? Jelaskan jawaban
    Anda berdasarkan aturan varargs di Java, dan berikan contohnya!
-   jawab :
+   jawab : 
+          1. Menghindari duplikasi kode (reusable).
+          2. Program lebih rapi dan mudah dibaca.
+          3. Mudah diperbarui (cukup ubah di fungsi, tidak di banyak tempat).
+          4. Memudahkan pemeliharaan & pengembangan program.
 
 4. Jelaskan apa yang terjadi jika fungsi daftarPengunjung dipanggil tanpa argumen. 
    Apakah program akan error saat kompilasi, error saat dijalankan, atau tetap berjalan?
    Jika tetap berjalan, bagaimana output yang dihasilkan?
-   jawab :
+   jawab : 
+          1. Program dimulai dari main().
+          2. main() memanggil fungsi Menu().
+          3. Program masuk ke dalam badan fungsi Menu().
+          4. Menu dicetak ke layar.
+          5. Eksekusi kembali ke main().
+          6. Program berhenti.
 
 
 

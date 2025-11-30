@@ -149,20 +149,43 @@ PERCOBAAN 5
 1. Sebutkan tahapan dan urutan eksekusi program pada Percobaan 5, mulai dari program
    dijalankan hingga menampilkan luas persegi panjang dan volume balok!
    jawab :
+          1. Program mulai dari main().
+          2. Input p, l, t.
+          3. Panggil fungsi hitungLuas().
+          4. Panggil hitungVolume().
+          5. Tampilkan hasil.
+          6. Program selesai.
 
 2. Tuliskan output yang dihasilkan program HitungBalokNoAbsen jika pengguna
    memasukkan panjang = 4, lebar = 3, dan tinggi = 5. Jelaskan secara singkat alur
    jalannya program sampai output tersebut muncul.
-   jawab :
+   jawab : 
+          > Output jika panjang=4, lebar=3, tinggi=5
+          > Luas = 4 × 3 = 12
+          > Volume = 4 × 3 × 5 = 60
+          Alur:
+          1. Input dibaca
+          2. Fungsi hitungLuas dipanggil → hasil 12
+          3. Fungsi hitungVolume dipanggil → hasil 60
+          4. Dicetak ke layar
 
 3. Apakah output dari program di bawah ini kemudian jelaskan alur jalannya program
     tersebut!
-    jawab :
+    jawab : output = 1234567
+            penjelasan :
+            Program dimulai dari main.
+            1.Jumlah(1,1) dipanggil → mengembalikan 2.
+            2. Hasilnya disimpan ke variabel temp.
+            3. Fungsi TampilJumlah(temp,5) dipanggil → berarti TampilJumlah(2,5).
+            4. Di dalam TampilJumlah, dilakukan:
+            5. Maka dipanggil TampilHinggaKei(7).
+            6. TampilHinggaKei mencetak angka dari 1 sampai 7.
+            7. Output final: 1234567
 
 4. Pada saat apakah fungsi yang kita buat harus menggunakan parameter atau tidak?
    Pada saat apakah fungsi yang kita buat harus memiliki nilai kembalian atau tidak?
    Jelaskan!
-   jawab :
+   jawab : 
 
 5. Jelaskan kapan sebuah fungsi sebaiknya menggunakan parameter dan kapan fungsi
    boleh tanpa parameter, dengan mengacu pada fungsi hitungLuas dan hitungVolume
@@ -173,7 +196,7 @@ PERCOBAAN 5
    kapan tidak perlu memiliki nilai kembalian, dengan mengacu pada fungsi main,
    hitungLuas, dan hitungVolume
    jawab :
-   
+
 
 
 

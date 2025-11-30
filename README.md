@@ -65,14 +65,14 @@ PERCOBAAN 2
 7. Berdasarkan fungsi Menu() di atas, jika nama pelanggan adalah "Budi", pelanggan
    tersebut member, dan menggunakan kode promo "DISKON30", tuliskan satu baris
    perintah pemanggilan fungsi menu yang benar.
-   jawab : Menu("Budi", true, "DISKON30");
+   jawab : sudah, Menu("Budi", true, "DISKON30");
  
 
 8. Menurut Anda, apakah penggunaan parameter namaPelanggan dan isMember 
    pada fungsi Menu() membuat program lebih mudah dibaca dan dikembangkan
    dibandingkan jika nilai-nilai tersebut ditulis langsung di dalam fungsi tanpa parameter?
    Jelaskan alasan Anda.
-   jawab : iya, karena
+   jawab : iya, karena 
            1. fungsi menjadi fleksibel
            2. nilai dapat diganti tanpa mengedit isi fungsi
            3. mempermudah pengembangan program

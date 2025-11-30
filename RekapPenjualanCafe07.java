@@ -37,8 +37,8 @@ public class RekapPenjualanCafe07 {
                 }
             }
 
-            System.out.println("\nMenu terlari: " + menu[idx] + " (Total: " + max + ")");
-        }
+            System.out.println("\nMenu terlaris: " + menu[idx] + " (Total: " + max + ")");
+        } 
         
         static void rataRata(String[] menu, int[][] penjualan) {
             System.out.println("\n=== Rata-rata Penjualan ===");
